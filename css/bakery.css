@@ -1,0 +1,584 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+   
+    
+    
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    background-color: black; 
+}
+
+/* header start */
+
+header{
+    width:100%;  
+    background-image: url(../img/bnner-3.jpg);
+    /* background-position: center; */
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+
+.social-media{
+    font-size: 1.3rem;
+    padding: 1.5rem;  
+    margin-top: 1rem; 
+}
+
+.social-media a .fa{
+    margin-right: 1.5rem; 
+    color: white;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.social-media a .fa:hover{
+    transform: rotatey(180deg);
+}
+
+.title h1{
+    font-family: 'Dancing Script', cursive;
+    color: orange;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.contact h3{
+    border: 1px solid orange;
+    font-size: 1.1rem;
+    color: orange;
+    padding: 1rem 2rem;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.contact h3:hover{
+    background-color: orange;
+    color: white;
+    
+}
+
+#my-navigation{
+    position: relative;
+    top: 35px;
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+#my-navigation a{
+    color: white;
+    font-weight: 300;
+    
+    transition-property: all;
+    transition-duration: 1s;
+    
+}
+#my-navigation a:hover{
+    color: orange;
+    background:none;
+    border-bottom: 1px solid orange;
+    
+}
+#my-navigation .navbar-nav{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-60%);
+    
+}
+
+
+
+
+
+#my-dropdown,li{
+    background:none;
+
+}
+
+#my-navigation .navbar-toggle .icon-bar{
+    background-color: orange; 
+}
+
+.navbar-toggle{
+    float: left;
+    border: none;
+}
+
+
+
+
+/* banner start */
+
+.banner{
+    width: 25%;
+    color: white;
+   
+    padding: 12rem 2rem;
+}
+
+.banner h1{
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 4rem;
+    padding: 2rem 0;
+}
+
+.my-btn{
+    width: 150px;
+    height: 50px;
+    background-color: orange;
+    border: none ;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    transition-duration: 0.5s;
+    font-weight: 600;
+}
+
+.my-btn:hover{
+    background-color:transparent;
+    color: orange;
+    border: 2px solid orange;
+} 
+
+
+
+/* banner end */
+/* header End */
+
+/* section -one start */
+
+.heading h1{ 
+    text-align: center; 
+    color: transparent;
+    font-weight: 300;
+    font-size: 2.3rem;
+    background-image: url(../img/pic-9.jpg);
+    -webkit-background-clip: text;
+    background-size: 100% 100%;
+    
+}
+.heading{ 
+    
+    width: 60%;  
+    margin: 0 auto;
+    
+}
+
+.section-one hr{
+    width: 10%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: orange;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.article-one{
+    transition-property: all;
+    transition-duration: 1s;
+    
+}
+
+.article-one:hover{  
+    transform: scale(1.1);
+    margin-top: 3rem;
+
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+.left-box{
+    width: 50%;
+    padding: 0 2rem;
+    
+}
+.left-box h4{
+   color: orange;
+   font-weight: 300;
+   padding-right:3rem;
+
+    
+}
+.left-box p {
+   color: white;
+   font-weight: 400;
+   
+    
+}
+
+.right img{
+    width: 100%;
+}
+
+.right img{
+    width: 100%;
+}
+.section-one .right{
+    width: 50%;
+}
+
+.carousel-inner img{
+    width: 100%;
+    
+}
+/* section-one end */
+
+
+/* video-section start */
+
+.video-section iframe{
+    width: 100%;
+    height: 600px;
+    padding: 3rem;
+}
+
+/* video -section end */
+
+/* section food lover */
+.food-lover{
+    padding: 3rem;
+}
+.food-lover h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.food-lover .flex-box{
+    justify-content: center;
+}
+
+.food-lover .fa{
+    color: orange;
+    font-size: rem;
+}
+
+.reviwe{
+    width: 33%;
+    border: 0.2px solid gray;
+    padding: 2rem;
+    color: white;
+    
+}
+
+.reviwe h3{
+   
+    padding: 2rem 0;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    
+}
+
+.reviwe-one{
+    border-left:none ;
+}
+.reviwe-three{
+    border-right:none;
+}
+
+.food-lover img{
+    width: 10%;
+    height: 35px;
+    border-radius: 80%;
+    
+}
+
+/* food lover end */
+
+/* two-blog start */
+
+.blog-title .flex-box{
+    justify-content: space-between;
+}
+
+.blog-title h2{
+    color: white;
+    font-weight: 300;
+}
+
+.two-blog img{
+    width: 100%;
+}
+
+.two-blog{
+   padding-bottom: 2rem;
+}
+.blog{
+    width: 49%;
+    border: 1px solid gray;
+   
+}
+
+.two-blog .flex-box{
+    padding: 0;
+}
+.blog-img{
+    width: 50%;
+    
+}
+.blog-decription{
+    width: 50%;
+    padding: 0rem 1rem;
+}
+.blog-decription h2{
+   color: orange;
+   font-weight: 300;
+   font-size: 1.6rem;
+   padding-bottom: 2rem;
+}
+.blog-decription p{
+   color: white;
+   font-weight: 300;
+   line-height: 2rem; 
+   
+}
+
+.blog a{
+    color: orange;
+    font-weight: 500;
+}
+
+
+/* two-blog-end */
+
+/* section- instgram start */
+.instagram{
+    text-align: center;
+}
+.instagram h1{
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 300;
+    padding: 2rem 0;
+}
+
+.photos img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.pic{
+    padding: 3rem 0;
+    width: 23%;
+    margin-bottom: 2rem;
+    transition-duration: 1s;
+}
+
+.pic:hover{
+    transform: scale(1.2);
+}
+.pic h3{
+   color: orange;
+   font-family: 'Dancing Script', cursive;
+
+    
+}
+
+/* section- instgram end */
+
+.title h1{
+    text-align: center;
+    
+}
+
+hr{
+    width: 90%;
+    margin: 0 auto;
+    color: gray;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* footer start */
+
+.footer-social{
+    width: 50%;
+    padding: 2rem 4rem;
+    color: white;
+}
+.my-footer p{
+   font-weight: 400;
+   line-height: 2rem;
+   padding-bottom: 2rem;
+}
+
+
+.footer-social .fa{ 
+
+    border: 1px solid gray;
+    padding: 1rem 3rem;
+    margin-right: 0.5rem;
+    transition-duration: 1s;
+    cursor: pointer;
+    
+}
+.footer-social .fa:hover{ 
+
+    color: orange;
+    
+}
+
+
+.loction , .footer-contact{
+    width: 25%;
+    color: white;
+    padding: 2rem 1rem;
+}
+.loction h1 , .footer-contact h1{
+   color: orange;
+   font-weight: 300;
+   font-size: 1.5rem;
+}
+.loction .fa , .footer-contact .fa{
+    font-size: 2rem;
+}
+
+
+
+
+/* foooter end */
+
+.author p{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    padding: 2rem 0;
+}
+
+.author .fa{
+    color: orange;
+}
+
+
+@media only screen and (max-width:900px){
+
+    .section-one .heading h1{
+        font-size: 1.7rem;
+    }
+
+    .article-one .box{
+
+        width: 100%;
+
+    }
+    .article-one .box h4 {
+
+        font-size: 1.6rem;
+        padding: 0;
+
+    }
+    .social-media{
+        font-size: 1rem;
+    }
+    .contact h3{
+        border: 1px solid orange;
+        font-size: 1rem;
+        color: orange;
+        padding: 0.5rem 0.8rem; 
+    }
+
+    .blog{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .footer-social {
+        width: 100%;
+        padding: 1rem 1rem;
+       
+    }
+
+    .food-lover .reviwe h3{
+        font-size: 1rem;
+        
+    }
+}
+
+@media only screen and (max-width:700px){
+    header .flex-box{
+
+        display: flex;
+        
+    }
+
+    .social-media{
+        display: none;
+    }
+    .contact h3{
+       display: none;
+    }
+
+    .title {
+       width: 100%;
+    }
+
+    .banner h1{
+        padding: 0;
+    }
+
+    .food-lover .reviwe{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid gray;
+    }
+
+    .two-blog .blog-img{
+        width: 100%;
+        padding: 1rem;
+        margin: 0;
+    }
+    .two-blog .blog-decription{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .flex-box{
+        display: block;
+    }
+
+    .photos .pic{
+        width: 100%;
+    }
+
+    .my-footer .fa{
+        width: 50%;
+        margin-top:2rem ;
+        
+    }
+ 
+
+}
+
+
+
+
+
+
+
+
+
